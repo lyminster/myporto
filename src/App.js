@@ -39,22 +39,22 @@ function App() {
             <a href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a>
             /
             <a href="tel:+6282213259288">+62822 1325 9288</a>
-            <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+            <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                   <div className="SosialMedia">
                   <ImLinkedin2 className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+                <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                   <div className="SosialMedia">
                   <TiSocialInstagram className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  href="https://github.com/lyminster" target="_blank">
+                <a className="AHover" rel="noreferrer" href="https://github.com/lyminster" target="_blank">
                   <div className="SosialMedia">
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  onClick={themeToggler}>
+                <a href="" className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
@@ -113,22 +113,22 @@ function App() {
             <a href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a><br/>
             <a href="tel:+6282213259288">+62822 1325 9288</a>
               <div style={{display:'flex', justifyContent:'center', paddingTop:20}}>
-              <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                   <div className="SosialMedia">
                   <ImLinkedin2 className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+                <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                   <div className="SosialMedia">
                   <TiSocialInstagram className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  href="https://github.com/lyminster" target="_blank">
+                <a className="AHover" rel="noreferrer" href="https://github.com/lyminster" target="_blank">
                   <div className="SosialMedia">
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <a className="AHover"  onClick={themeToggler}>
+                <a href="" className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
@@ -247,17 +247,17 @@ function App() {
         <a className="footerA" href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a><br/>
         <a className="footerA" href="tel:+6282213259288">+62822 1325 9288</a>
         <div style={{display:'flex' , justifyContent:'center' , padding: "50px 0px 70px 0px"}}>
-              <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                 <div className="SosialMedia">
                 <ImLinkedin2 className="IconSosial"/>
                 </div>
               </a>
-              <a className="AHover"  href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
                 <div className="SosialMedia">
                 <TiSocialInstagram className="IconSosial"/>
                 </div>
               </a>
-              <a className="AHover"  href="https://github.com/lyminster" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://github.com/lyminster" target="_blank">
                 <div className="SosialMedia">
                 <TiSocialGithub className="IconSosial"/>
                 </div>
