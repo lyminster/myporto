@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myporto/static/css/main.7c756f81.chunk.css",
-    "main.js": "/myporto/static/js/main.e92454e3.chunk.js",
-    "main.js.map": "/myporto/static/js/main.e92454e3.chunk.js.map",
+    "main.js": "/myporto/static/js/main.19f7434d.chunk.js",
+    "main.js.map": "/myporto/static/js/main.19f7434d.chunk.js.map",
     "runtime-main.js": "/myporto/static/js/runtime-main.139aad43.js",
     "runtime-main.js.map": "/myporto/static/js/runtime-main.139aad43.js.map",
     "static/css/2.61526bb2.chunk.css": "/myporto/static/css/2.61526bb2.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.61526bb2.chunk.css",
     "static/js/2.2fbec605.chunk.js",
     "static/css/main.7c756f81.chunk.css",
-    "static/js/main.e92454e3.chunk.js"
+    "static/js/main.19f7434d.chunk.js"
   ]
 }
