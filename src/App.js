@@ -54,11 +54,11 @@ function App() {
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <a href="" className="AHover"  onClick={themeToggler}>
+                <div className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
-                </a>
+                </div>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-lg-5" style={{marginBottom:30}}>
-            <img src="" alt="Profile Picture" />
+            <img src="" alt="RommyGautanto" />
           </div>
           <div className="col-lg-7 aboutme">
             <div className="Intro">
@@ -128,11 +128,11 @@ function App() {
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <a href="" className="AHover"  onClick={themeToggler}>
+                <div className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
-                </a>
+                </div>
               </div>
             </div>
             </div>
