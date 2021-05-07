@@ -36,3 +36,165 @@
     transform: rotate(360deg);
   }
 }
+.TopNav{
+  padding: 40px 0px 70px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContactNav{
+  display: flex;
+  align-items: center;
+}
+a{
+  margin: 5px 15px;
+  text-decoration: none !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.IconSosial{
+  width: 25px;
+  height: 25px;
+}
+
+.SosialMedia{
+  padding: 10px;
+  cursor: pointer;
+  /* margin: 0px 5px; */
+  border-radius: 50px;
+  background-color: #EEEEEE;
+  /* border: #EEEEEE 1px solid; */
+  transition: 0.3s;
+}
+.SosialMedia:hover{
+  background-color: #282c34;
+  color: white;
+}
+p{
+  font-size: 18px;
+}
+.aboutme{
+  position: relative;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.Intro{
+  padding: 0px 25px;
+  position: absolute;
+  left: -35px;
+  /* font-size: 50px;
+  font-weight: 800; */
+  /* background-color: rgb(35,43,43, 0.8); */
+  /* color: white; */
+}
+.intro1{
+  font-size: 22px;
+  /* color: #3d3d3d; */
+  font-weight: 400;
+}
+.intro2{
+  font-size: 50px;
+  font-weight: 800;
+}
+.shortaboutme{
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 2;
+  margin: 30px 0px;
+  width: 140px;
+}
+.DetailAboutMe{
+  margin-top: 200px;
+  padding: 0px 150px 0px 100px;
+}
+.downloadCV{
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  color: black;
+  letter-spacing: 2px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 00.3s;
+}
+.downloadCV:hover{
+  background-color: #282c34;
+  color: white;
+}
+.JudulWork{
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.WorkExp{
+  text-align: left;
+  padding: 50px 80px;
+}
+.WorkExp2{
+  text-align: left;
+  padding: 50px 80px;
+  padding-bottom: 130px;
+}
+.isiWork{
+  min-height: 350px;
+}
+.bodyWork{
+  justify-content: center;
+}
+.boldText{
+  font-weight: bolder;
+  font-size: 18px;
+}
+.DetailTime{
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 3;
+}
+.sideButton{
+  padding: 10px 30px;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+.footer{
+  padding:120px 0px;
+  background-color: black;
+  color: white;
+}
+.footerA{
+  color:white;
+}
+.footerA:hover{
+  color: #DCDCDC;
+}
+.activeBtn{
+  padding: 10px 30px;
+  background-color: #D3D3D3;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+.borderFolder{
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.borderFolder:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  /* box-shadow: 0 0 11px rgba(33,33,33,.2);  */
+}
