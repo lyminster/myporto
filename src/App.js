@@ -54,7 +54,7 @@ function App() {
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <div className="AHover"  onClick={themeToggler}>
+                <div style={{margin:5}} className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
@@ -128,7 +128,7 @@ function App() {
                   <TiSocialGithub className="IconSosial"/>
                   </div>
                 </a>
-                <div className="AHover"  onClick={themeToggler}>
+                <div style={{margin:5}} className="AHover"  onClick={themeToggler}>
                   <div className="SosialMedia">
                   {theme === 'light' ? <BiMoon className="IconSosial"/> : <BiSun className="IconSosial"/>}
                   </div>
@@ -167,7 +167,7 @@ function App() {
               workMenu === "2" ? 
               <div className="isiWork col-lg-7">
                 <div>Software Engineer <span className="boldText">@ PT Mitra AdiPerkasa</span></div>
-                <div className="DetailTime">Okt 2019 - Present</div>
+                <div className="DetailTime">Okt 2017 - Okt 2019</div>
                 <div>
                   <ul>
                     <li>Develop Windows Application for internal usage using C# / ASP.Net Framework.</li>
