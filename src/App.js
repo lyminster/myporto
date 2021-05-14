@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './images/logo.png';
+import logoBlack from './images/black.png';
+import logoWhite from './images/white.png';
 
 import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
@@ -33,7 +34,7 @@ function App() {
       <div className="TopNav container">
         <div className="row">
           <div className="col-md-2 col-sm-12">
-          <img height="100" src={logo} />
+          <img height="50" src={theme === 'light' ? logoBlack : logoWhite} />
           </div>
           <div className="col-md-10 col-sm-12">
             <div className="ContactNav d-none d-sm-flex" >
@@ -73,7 +74,7 @@ function App() {
             <div className="Intro">
               <div className="intro1">Hi, my name</div>
               <div className="intro2">Rommy Gautanto</div>
-              <div className="intro2">I build things for the web.</div>
+              <div className="intro2" style={{fontSize:45}}>I build things for the web.</div>
             </div>
             <div className="DetailAboutMe">
               <div className="shortaboutme">
