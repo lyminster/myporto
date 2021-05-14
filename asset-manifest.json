@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myporto/static/css/main.0391fce9.chunk.css",
-    "main.js": "/myporto/static/js/main.04f0f28c.chunk.js",
-    "main.js.map": "/myporto/static/js/main.04f0f28c.chunk.js.map",
+    "main.js": "/myporto/static/js/main.ba863680.chunk.js",
+    "main.js.map": "/myporto/static/js/main.ba863680.chunk.js.map",
     "runtime-main.js": "/myporto/static/js/runtime-main.139aad43.js",
     "runtime-main.js.map": "/myporto/static/js/runtime-main.139aad43.js.map",
     "static/css/2.61526bb2.chunk.css": "/myporto/static/css/2.61526bb2.chunk.css",
@@ -13,13 +13,14 @@
     "index.html": "/myporto/index.html",
     "static/css/2.61526bb2.chunk.css.map": "/myporto/static/css/2.61526bb2.chunk.css.map",
     "static/css/main.0391fce9.chunk.css.map": "/myporto/static/css/main.0391fce9.chunk.css.map",
-    "static/js/2.2fbec605.chunk.js.LICENSE.txt": "/myporto/static/js/2.2fbec605.chunk.js.LICENSE.txt"
+    "static/js/2.2fbec605.chunk.js.LICENSE.txt": "/myporto/static/js/2.2fbec605.chunk.js.LICENSE.txt",
+    "static/media/logo.cd0c89dc.png": "/myporto/static/media/logo.cd0c89dc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.139aad43.js",
     "static/css/2.61526bb2.chunk.css",
     "static/js/2.2fbec605.chunk.js",
     "static/css/main.0391fce9.chunk.css",
-    "static/js/main.04f0f28c.chunk.js"
+    "static/js/main.ba863680.chunk.js"
   ]
 }
