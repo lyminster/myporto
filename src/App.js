@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import logo from './images/logo.png';
 
 import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
@@ -32,14 +33,14 @@ function App() {
       <div className="TopNav container">
         <div className="row">
           <div className="col-md-2 col-sm-12">
-          Rommy Gautanto 
+          <img height="100" src={logo} />
           </div>
           <div className="col-md-10 col-sm-12">
             <div className="ContactNav d-none d-sm-flex" >
             <a href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a>
             /
             <a href="tel:+6282213259288">+62822 1325 9288</a>
-            <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+            <a className="AHover" rel="noreferrer" href="https://www.linkedin.com/in/rommy-gautanto-129026116" target="_blank">
                   <div className="SosialMedia">
                   <ImLinkedin2 className="IconSosial"/>
                   </div>
@@ -113,7 +114,7 @@ function App() {
             <a href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a><br/>
             <a href="tel:+6282213259288">+62822 1325 9288</a>
               <div style={{display:'flex', justifyContent:'center', paddingTop:20}}>
-              <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://www.linkedin.com/in/rommy-gautanto-129026116" target="_blank">
                   <div className="SosialMedia">
                   <ImLinkedin2 className="IconSosial"/>
                   </div>
@@ -247,7 +248,7 @@ function App() {
         <a className="footerA" href="mailto:rommygautanto@gmail.com">rommygautanto@gmail.com</a><br/>
         <a className="footerA" href="tel:+6282213259288">+62822 1325 9288</a>
         <div style={{display:'flex' , justifyContent:'center' , padding: "50px 0px 70px 0px"}}>
-              <a className="AHover" rel="noreferrer" href="https://www.instagram.com/rommy_gautanto/" target="_blank">
+              <a className="AHover" rel="noreferrer" href="https://www.linkedin.com/in/rommy-gautanto-129026116" target="_blank">
                 <div className="SosialMedia">
                 <ImLinkedin2 className="IconSosial"/>
                 </div>
